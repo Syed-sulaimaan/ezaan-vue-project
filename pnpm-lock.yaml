@@ -12,6 +12,7 @@ specifiers:
   eslint: ^8.22.0
   eslint-plugin-vue: ^9.3.0
   npm-run-all: ^4.1.5
+  oh-vue-icons: 1.0.0-rc3
   postcss: ^8.4.21
   prettier: ^2.7.1
   tailwindcss: ^3.2.4
@@ -21,6 +22,7 @@ specifiers:
   vue-tsc: ^1.0.12
 
 dependencies:
+  oh-vue-icons: 1.0.0-rc3_vue@3.2.45
   vue: 3.2.45
 
 devDependencies:
@@ -2245,6 +2247,19 @@ packages:
       object-keys: 1.1.1
     dev: true
 
+  /oh-vue-icons/1.0.0-rc3_vue@3.2.45:
+    resolution: {integrity: sha512-+k2YC6piK7sEZnwbkQF3UokFPMmgqpiLP6f/H0ovQFLl20QA5V4U8EcI6EclD2Lt5NMQ3k6ilLGo8XyXqdVSvg==}
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue: ^2.0.0 || >=3.0.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+    dependencies:
+      vue: 3.2.45
+      vue-demi: 0.12.5_vue@3.2.45
+    dev: false
+
   /once/1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
     dependencies:
@@ -2854,6 +2869,21 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
+
+  /vue-demi/0.12.5_vue@3.2.45:
+    resolution: {integrity: sha512-BREuTgTYlUr0zw0EZn3hnhC3I6gPWv+Kwh4MCih6QcAeaTlaIX0DwOVN0wHej7hSvDPecz4jygy/idsgKfW58Q==}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue: ^3.0.0-0 || ^2.6.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+    dependencies:
+      vue: 3.2.45
+    dev: false
 
   /vue-eslint-parser/9.1.0_eslint@8.32.0:
     resolution: {integrity: sha512-NGn/iQy8/Wb7RrRa4aRkokyCZfOUWk19OP5HP6JEozQFX5AoS/t+Z0ZN7FY4LlmWc4FNI922V7cvX28zctN8dQ==}
