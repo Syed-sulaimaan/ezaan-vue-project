@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "oh-vue-icons": "1.0.0-rc3",
-    "vite-svg-loader": "^4.0.0",
     "vue": "^3.2.45"
   },
   "devDependencies": {
