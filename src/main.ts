@@ -2,7 +2,11 @@ import { createApp } from "vue";
 import App from "./App.vue";
 
 import { OhVueIcon, addIcons } from "oh-vue-icons";
-import { RiLinkedinLine, RiInstagramLine, RiTwitterLine } from "oh-vue-icons/icons";
+import {
+  RiLinkedinLine,
+  RiInstagramLine,
+  RiTwitterLine,
+} from "oh-vue-icons/icons";
 
 import "./assets/main.css";
 
