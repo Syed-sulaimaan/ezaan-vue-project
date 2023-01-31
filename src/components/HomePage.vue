@@ -3,7 +3,7 @@
     class="flex flex-col items-center h-screen bg-[url('../assets/bg.png')] bg-bottom bg-origin-padding"
   >
     <h1>
-      <img class="h-[640px] sm:h-[450px] w-full" src="../assets/ezaan.svg" />
+      <img class="h-[640px] md:h-[450px] w-screen" src="../assets/name2.svg" />
     </h1>
     <div class="absolute flex justify-evenly bottom-1 mb-20 sm:mt-20 w-80">
       <a target="_new" href="https://www.linkedin.com/in/syedezaaan">
